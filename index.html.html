@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlogolo page</title>
+    
+    <style>
+
+
+        /*  NIME IMPROVE STYLE YA WEB PAGE YAKO  ILA UNAWEZA BADILISHA 
+        STYLE KULINGANA NA UNAVOTAKA WEB PAGE INEKANE
+                          */
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, p {
+            text-align: center;
+        }
+        .pdf {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            width: 100%;
+            height: 500px;
+        }
+        .jema {
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stephen Luhelo Mlogolo</h1>
+        <p>
+            I am the CEO of <b>JS STATISTICAL COMPANY LTD</b> and a recent graduate with a Bachelor’s degree in Science in Mathematics and Statistics from the University of Dodoma, class of 2024.
+        </p>
+        <p>
+            At our company, we warmly welcome you for any statistical problem related to research proposals, research design, data entry, analysis, and interpretation. We also provide consultation for the better use of reported data and offer training on data entry and analysis tools like STATA, SAS, SPSS, Excel, etc.
+        </p>
+        <p>Get my CV below:</p>
+        <!-----NIMEWEKA SAMPLE YA RESEARCH YETU
+        KAMA MFANO WA CV YAKO    
+        pia hiyo pdf unayotaka iyo onekane uwemesave kwenye same file na
+         hili file la code zako -->
+         
+        <a href="Steve_CV.pdf" download="Steve_Mlogolo_CV.pdf" target="_blank">
+            <object class="pdf" data="Steve_CV.pdf" type="application/pdf">
+                <p>Your browser does not support PDFs. <a href="Steve_CV.pdf" target="_blank">Download the PDF</a>.</p>
+            </object>
+        </a>
+       <marquee> <div class="jema">JS STATISTICAL COMPANY LTD</div>  </marquee> 
+    </div>
+</body>
+</html>
